@@ -6,7 +6,7 @@ set(CMAKE_C_STANDARD 99)
 # относительные пути к исходным файлам
 add_executable(dirwalk
     src/main.c
-    src/walk_directory.c
+    src/walk_dir.c
     src/print_entries.c
     src/compare_entries.c
 )
