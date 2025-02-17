@@ -21,7 +21,7 @@
     make
     ```
 
-After building the utility, you can use the ```dirwalk`` command to traverse directories:
+After building the utility, you can use the ```dirwalk``` command to traverse directories:
 
     ```bash
     ./dirwalk <directory_path> <options>
@@ -34,13 +34,13 @@ After building the utility, you can use the ```dirwalk`` command to traverse dir
 
 ## Available Options
 
-    -l: Show only symbolic links (-type l).
-    -d: Show only directories (-type d).
-    -f: Show only regular files (-type f).
-    -s: Sort the output according to LC_COLLATE.
+    ```-l```: Show only symbolic links (```-type l```).
+    ```-d```: Show only directories (```-type d```).
+    ```-f```: Show only regular files (```-type f```).
+    ```-s```: Sort the output according to ```LC_COLLATE```.
 
 ## Requirements
 
     Linux/Unix-like operating system (tested on Ubuntu)
-    gcc or clang compiler (sudo apt install gcc)
-    cmake utility for building the project (sudo apt install cmake)
+    ```gcc``` or ```clang``` compiler (```sudo apt install gcc```)
+    ```cmake``` utility for building the project (```sudo apt install cmake```)
