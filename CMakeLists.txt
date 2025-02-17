@@ -7,8 +7,8 @@ set(CMAKE_C_STANDARD 99)
 add_executable(dirwalk
     src/main.c
     src/walk_dir.c
-    src/print_entries.c
-    src/compare_entries.c
+    src/proc_entries.c
+
 )
 
 
