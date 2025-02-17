@@ -12,8 +12,7 @@
 
 #define MAX_ENTRIES 1024
 
-char **walk_directory(const char *path, int show_links, int show_dirs, int show_files,int sort_entries, int *total_count);
-int compare_entries(const void *a, const void *b);
-void print_entries(char **entries, int count);
+void walk_directory(const char *dir_path, int show_links, int show_dirs, int show_files, int sort);
+void process_entry(const char *dir_path, struct dirent *entry, int show_links, int show_dirs, int show_files, int sort);
 
 #endif
