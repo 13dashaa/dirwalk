@@ -11,7 +11,9 @@
 2. **Enter the repository directory:**
 
     ```bash
-    cd dirwalk/build
+    cd dirwalk
+    mkdir build
+    cd build
     ```
 
 3. **Build the project using CMake:**
