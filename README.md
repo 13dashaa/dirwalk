@@ -23,6 +23,7 @@
 
 After building the utility, you can use the ```dirwalk``` command to traverse directories:
 
+    
     ```bash
     ./dirwalk <directory_path> <options>
     ```
