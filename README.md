@@ -5,7 +5,7 @@
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/kirirut/dirwalk.git
+    git clone https://github.com/13dashaa/dirwalk.git
     ```
 
 2. **Enter the repository directory:**
