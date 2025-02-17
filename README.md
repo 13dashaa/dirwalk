@@ -23,9 +23,9 @@
 
 After building the utility, you can use the `dirwalk` command to traverse directories:
 
-    ```
+    
     ./dirwalk <directory_path> <options>
-    ```
+    
 
 ## Arguments
 
@@ -49,14 +49,14 @@ After building the utility, you can use the `dirwalk` command to traverse direct
 
 To create an alias for the `dirwalk` command in zsh, add the following to your `~/.zshrc`:
 
-    ```
+    
     function dirwalk() {
       /home/user/build/dirwalk "$1" "$2"
     }
-    ```
+    
 
 Then, run:
 
-    ```
+    
     source ~/.zshrc
-    ```
+    
