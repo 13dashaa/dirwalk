@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(dirwalk)
+project(dirwalk C) 
 
 set(CMAKE_C_STANDARD 99)
 
