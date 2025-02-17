@@ -12,7 +12,7 @@
 
 #define MAX_ENTRIES 1024
 
-void walk_directory(const char *dir_path, int show_links, int show_dirs, int show_files, int sort);
+void walk_dir(const char *dir_path, int show_links, int show_dirs, int show_files, int sort);
 void process_entry(const char *dir_path, struct dirent *entry, int show_links, int show_dirs, int show_files, int sort);
 
 #endif
