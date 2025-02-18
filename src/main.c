@@ -3,7 +3,6 @@ int main(int argc, char *argv[]) {
     int opt;
     int show_links = 0, show_dirs = 0, show_files = 0, sort_entries = 0;
     char *dir = "."; // По умолчанию текущий каталог
-    int count = 0;
     while ((opt = getopt(argc, argv, "ldfs")) != -1) {
         switch (opt) {
             case 'l':
