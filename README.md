@@ -1,14 +1,14 @@
 # Dirwalk
 
-## Installation
+## Установка
 
-1. **Clone the repository:**
+1. **Клонирование репозитория:**
 
     ```bash
     git clone https://github.com/13dashaa/dirwalk.git
     ```
 
-2. **Enter the repository directory:**
+2. **Перейдите в директорию репозитория и выполните следующие команды:**
 
     ```bash
     cd dirwalk
@@ -16,40 +16,40 @@
     cd build
     ```
 
-3. **Build the project using CMake:**
+3. **Соберите проект с помощью CMake:**
 
     ```bash
     cmake ..
     make
     ```
 
-After building the utility, you can use the `dirwalk` command to traverse directories:
+После сборки Вы можете использовать команду dirwalk для обхода директорий:
 
     
     ./dirwalk <directory_path> <options>
     
 
-## Arguments
+## Аргументы
 
-- `<directory_path>`: The path to the directory you want to traverse.
-- `<options>`: Options for filtering and sorting.
+- `<directory_path>`: Путь к директории, которую вы хотите обойти.
+- `<options>`: Опции для фильтрации и сортировки.
 
-## Available Options
+## Доступные опции
 
-- `-l`: Show only symbolic links (-type l).
-- `-d`: Show only directories (-type d).
-- `-f`: Show only regular files (-type f).
-- `-s`: Sort the output according to LC_COLLATE.
+- `-l`: Показывать только символические ссылки (-type l).
+- `-d`: Показывать только каталоги (-type d).
+- `-f`: Показывать только файлы (-type f).
+- `-s`: SСортировать вывод в соответствии с LC_COLLATE.
 
-## Requirements
+## Требования к среде
 
-- Linux/Unix-like operating system (tested on Ubuntu)
-- `gcc` or `clang` compiler (`sudo apt install gcc`)
-- `cmake` utility for building the project (`sudo apt install cmake`)
+-  Операционная система на базе Linux/Unix 
+-  Компилятор `gcc` или `clang` (`sudo apt install gcc`)
+- `cmake` для сборки проекта (`sudo apt install cmake`)
 
-## Alias for zsh
+## Алиас zsh
 
-To create an alias for the `dirwalk` command in zsh, add the following to your `~/.zshrc`:
+Чтобы создать псевдоним для команды  `dirwalk` в zsh, добавьте следующее в Ваш файл `~/.zshrc`:
 
     
     function dirwalk() {
@@ -57,7 +57,7 @@ To create an alias for the `dirwalk` command in zsh, add the following to your `
     }
     
 
-Then, run:
+Затем выполните:
 
     
     source ~/.zshrc
